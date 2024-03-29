@@ -1,0 +1,41 @@
+/public/hot
+
+/public/js/bundle
+/public/images/vendor
+/public/js/main.js
+/node_modules
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/framework/sessions
+/vendor
+# Ignore vendor directory (Laravel dependencies)
+/vendor/
+.env
+.env.backup
+composer.lock
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Ignore node_modules directory (Node.js dependencies)
+
+# Ignore compiled assets (Vue.js)
+/public/js/
+/public/css/
+/public/mix-manifest.json
+/public/images/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore user-specific editor config (optional)
+/.editorconfig
+#Please note that the exact contents of your .gitignore file may vary depending on your specific project structure and dependencies. It is essential to adapt the .gitignore file based on your actual project needs.
+
+#Remember to create and place the .gitignore file in the root directory of your project. After adding the .gitignore file, make sure to commit it to your Git repository so that Git will start ignoring the specified files and directories.

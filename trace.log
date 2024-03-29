@@ -1,0 +1,1004 @@
++(/opt/homebrew/bin/pyenv:23): enable -f /opt/homebrew/bin/../libexec/pyenv-realpath.dylib realpath
++(/opt/homebrew/bin/pyenv:30): '[' -z '' ']'
+++(/opt/homebrew/bin/pyenv:32): type -P readlink
++(/opt/homebrew/bin/pyenv:32): READLINK=/usr/bin/readlink
++(/opt/homebrew/bin/pyenv:33): '[' -n /usr/bin/readlink ']'
++(/opt/homebrew/bin/pyenv:58): '[' -z '' ']'
++(/opt/homebrew/bin/pyenv:59): PYENV_ROOT=/Users/mustaphabkl/.pyenv
++(/opt/homebrew/bin/pyenv:63): export PYENV_ROOT
++(/opt/homebrew/bin/pyenv:65): '[' -z '' ']'
++(/opt/homebrew/bin/pyenv:66): PYENV_DIR=/Users/mustaphabkl/Sites/baffony/pos
++(/opt/homebrew/bin/pyenv:69): '[' '!' -d /Users/mustaphabkl/Sites/baffony/pos ']'
++(/opt/homebrew/bin/pyenv:69): '[' '!' -e /Users/mustaphabkl/Sites/baffony/pos ']'
+++(/opt/homebrew/bin/pyenv:73): cd /Users/mustaphabkl/Sites/baffony/pos
+++(/opt/homebrew/bin/pyenv:73): echo /Users/mustaphabkl/Sites/baffony/pos
++(/opt/homebrew/bin/pyenv:73): PYENV_DIR=/Users/mustaphabkl/Sites/baffony/pos
++(/opt/homebrew/bin/pyenv:74): export PYENV_DIR
++(/opt/homebrew/bin/pyenv:77): shopt -s nullglob
+++(/opt/homebrew/bin/pyenv:79): abs_dirname /opt/homebrew/bin/pyenv
+++(/opt/homebrew/bin/pyenv:40): abs_dirname(): local path=/opt/homebrew/bin/pyenv
+++(/opt/homebrew/bin/pyenv:44): abs_dirname(): '[' -n /opt/homebrew/bin/pyenv ']'
+++(/opt/homebrew/bin/pyenv:45): abs_dirname(): cd_path=/opt/homebrew/bin
+++(/opt/homebrew/bin/pyenv:46): abs_dirname(): [[ /opt/homebrew/bin != \/\o\p\t\/\h\o\m\e\b\r\e\w\/\b\i\n\/\p\y\e\n\v ]]
+++(/opt/homebrew/bin/pyenv:47): abs_dirname(): cd /opt/homebrew/bin
+++(/opt/homebrew/bin/pyenv:49): abs_dirname(): name=pyenv
++++(/opt/homebrew/bin/pyenv:50): abs_dirname(): resolve_link pyenv
++++(/opt/homebrew/bin/pyenv:36): resolve_link(): /usr/bin/readlink pyenv
+++(/opt/homebrew/bin/pyenv:50): abs_dirname(): path=../Cellar/pyenv/2.3.23/bin/pyenv
+++(/opt/homebrew/bin/pyenv:44): abs_dirname(): '[' -n ../Cellar/pyenv/2.3.23/bin/pyenv ']'
+++(/opt/homebrew/bin/pyenv:45): abs_dirname(): cd_path=../Cellar/pyenv/2.3.23/bin
+++(/opt/homebrew/bin/pyenv:46): abs_dirname(): [[ ../Cellar/pyenv/2.3.23/bin != \.\.\/\C\e\l\l\a\r\/\p\y\e\n\v\/\2\.\3\.\2\3\/\b\i\n\/\p\y\e\n\v ]]
+++(/opt/homebrew/bin/pyenv:47): abs_dirname(): cd ../Cellar/pyenv/2.3.23/bin
+++(/opt/homebrew/bin/pyenv:49): abs_dirname(): name=pyenv
++++(/opt/homebrew/bin/pyenv:50): abs_dirname(): resolve_link pyenv
++++(/opt/homebrew/bin/pyenv:36): resolve_link(): /usr/bin/readlink pyenv
+++(/opt/homebrew/bin/pyenv:50): abs_dirname(): path=../libexec/pyenv
+++(/opt/homebrew/bin/pyenv:44): abs_dirname(): '[' -n ../libexec/pyenv ']'
+++(/opt/homebrew/bin/pyenv:45): abs_dirname(): cd_path=../libexec
+++(/opt/homebrew/bin/pyenv:46): abs_dirname(): [[ ../libexec != \.\.\/\l\i\b\e\x\e\c\/\p\y\e\n\v ]]
+++(/opt/homebrew/bin/pyenv:47): abs_dirname(): cd ../libexec
+++(/opt/homebrew/bin/pyenv:49): abs_dirname(): name=pyenv
++++(/opt/homebrew/bin/pyenv:50): abs_dirname(): resolve_link pyenv
++++(/opt/homebrew/bin/pyenv:36): resolve_link(): /usr/bin/readlink pyenv
++++(/opt/homebrew/bin/pyenv:50): abs_dirname(): true
+++(/opt/homebrew/bin/pyenv:50): abs_dirname(): path=
+++(/opt/homebrew/bin/pyenv:44): abs_dirname(): '[' -n '' ']'
+++(/opt/homebrew/bin/pyenv:53): abs_dirname(): echo /opt/homebrew/Cellar/pyenv/2.3.23/libexec
++(/opt/homebrew/bin/pyenv:79): bin_path=/opt/homebrew/Cellar/pyenv/2.3.23/libexec
++(/opt/homebrew/bin/pyenv:80): for plugin_bin in '"${bin_path%/*}"/plugins/*/bin'
++(/opt/homebrew/bin/pyenv:81): PATH=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin:/Users/mustaphabkl/.pyenv/shims:/opt/homebrew/opt/node@16/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
++(/opt/homebrew/bin/pyenv:85): '[' /opt/homebrew/Cellar/pyenv/2.3.23 '!=' /Users/mustaphabkl/.pyenv ']'
++(/opt/homebrew/bin/pyenv:90): export PATH=/opt/homebrew/Cellar/pyenv/2.3.23/libexec:/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin:/Users/mustaphabkl/.pyenv/shims:/opt/homebrew/opt/node@16/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
++(/opt/homebrew/bin/pyenv:90): PATH=/opt/homebrew/Cellar/pyenv/2.3.23/libexec:/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin:/Users/mustaphabkl/.pyenv/shims:/opt/homebrew/opt/node@16/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
++(/opt/homebrew/bin/pyenv:92): PYENV_HOOK_PATH=:/Users/mustaphabkl/.pyenv/pyenv.d
++(/opt/homebrew/bin/pyenv:93): '[' /opt/homebrew/Cellar/pyenv/2.3.23 '!=' /Users/mustaphabkl/.pyenv ']'
++(/opt/homebrew/bin/pyenv:95): PYENV_HOOK_PATH=:/Users/mustaphabkl/.pyenv/pyenv.d:/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d
++(/opt/homebrew/bin/pyenv:97): PYENV_HOOK_PATH=:/Users/mustaphabkl/.pyenv/pyenv.d:/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d:/opt/homebrew/etc/pyenv.d:/etc/pyenv.d:/usr/lib/pyenv/hooks
++(/opt/homebrew/bin/pyenv:101): PYENV_HOOK_PATH=/Users/mustaphabkl/.pyenv/pyenv.d:/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d:/opt/homebrew/etc/pyenv.d:/etc/pyenv.d:/usr/lib/pyenv/hooks
++(/opt/homebrew/bin/pyenv:102): export PYENV_HOOK_PATH
++(/opt/homebrew/bin/pyenv:104): shopt -u nullglob
++(/opt/homebrew/bin/pyenv:107): command=install
++(/opt/homebrew/bin/pyenv:108): case "$command" in
+++(/opt/homebrew/bin/pyenv:121): command -v pyenv-install
++(/opt/homebrew/bin/pyenv:121): command_path=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install
++(/opt/homebrew/bin/pyenv:122): '[' -z /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install ']'
++(/opt/homebrew/bin/pyenv:130): shift 1
++(/opt/homebrew/bin/pyenv:131): '[' -v = --help ']'
++(/opt/homebrew/bin/pyenv:138): exec /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install -v 3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:32): shopt -s nullglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:36): export PYTHON_BUILD_DEFINITIONS
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:37): shopt -u nullglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:40): '[' -v = --complete ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:53): python-build --lib
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:24): exec
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:57): lib --lib
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:51): lib(): '[' --lib == --lib ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:52): lib(): declare -f lib
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:53): lib(): echo 'lib "$1";'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:54): lib(): exit
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:53): eval 'lib () 
+{ 
+    function parse_options () 
+    { 
+        OPTIONS=();
+        ARGUMENTS=();
+        local arg option index;
+        for arg in "$@";
+        do
+            if [ "${arg:0:1}" = "-" ]; then
+                if [ "${arg:1:1}" = "-" ]; then
+                    OPTIONS[${#OPTIONS[*]}]="${arg:2}";
+                else
+                    index=1;
+                    while option="${arg:$index:1}"; do
+                        [ -n "$option" ] || break;
+                        OPTIONS[${#OPTIONS[*]}]="$option";
+                        index=$(($index+1));
+                    done;
+                fi;
+            else
+                ARGUMENTS[${#ARGUMENTS[*]}]="$arg";
+            fi;
+        done
+    };
+    if [ "$1" == "--$FUNCNAME" ]; then
+        declare -f "$FUNCNAME";
+        echo "$FUNCNAME \"\$1\";";
+        exit;
+    fi
+}
+lib "$1";'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:84): lib -v
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:78): lib(): '[' -v == --lib ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:69): unset FORCE
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:70): unset SKIP_EXISTING
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:71): unset KEEP
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:72): unset VERBOSE
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:73): unset HAS_PATCH
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:74): unset DEBUG
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:76): '[' -n 1 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:76): VERBOSE=-v
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:78): parse_options -v 3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:57): parse_options(): OPTIONS=()
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:58): parse_options(): ARGUMENTS=()
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:59): parse_options(): local arg option index
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:60): parse_options(): for arg in '"$@"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:62): parse_options(): '[' - = - ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:63): parse_options(): '[' v = - ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:66): parse_options(): index=1
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:67): parse_options(): option=v
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:68): parse_options(): '[' -n v ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:69): parse_options(): OPTIONS[${#OPTIONS[*]}]=v
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:70): parse_options(): index=2
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:67): parse_options(): option=
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:68): parse_options(): '[' -n '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:68): parse_options(): break
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:60): parse_options(): for arg in '"$@"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:62): parse_options(): '[' 3 = - ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:74): parse_options(): ARGUMENTS[${#ARGUMENTS[*]}]=3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:79): for option in '"${OPTIONS[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:80): case "$option" in
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:99): VERBOSE=-v
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:116): unset VERSION_NAME
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:122): DEFINITIONS=("${ARGUMENTS[@]}")
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:123): [[ 1 -eq 0 ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:124): [[ 1 -eq 0 ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:129): declare -a before_hooks after_hooks
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:146): trap cleanup SIGINT
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:149): OLDIFS=' 	
+'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:150): IFS='
+'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:150): scripts=(`pyenv-hooks install`)
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:150): pyenv-hooks install
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:9): '[' install = --complete ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:18): PYENV_COMMAND=install
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:19): '[' -z install ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:24): enable -f /opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-realpath.dylib realpath
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:55): IFS=:
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:55): hook_paths=($PYENV_HOOK_PATH)
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:57): shopt -s nullglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:58): for path in '"${hook_paths[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:58): for path in '"${hook_paths[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:59): for script in '"$path/$PYENV_COMMAND"/*.bash'
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:60): realpath /opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:58): for path in '"${hook_paths[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:58): for path in '"${hook_paths[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:58): for path in '"${hook_paths[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-hooks:63): shopt -u nullglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:151): IFS=' 	
+'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:152): for script in '"${scripts[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:152): source /opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash
+++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:21): for i in '${!DEFINITIONS[*]}'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:22): pyenv_install_resolve_latest 3.6.10
++++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:2): pyenv_install_resolve_latest(local DEFINITION_PREFIX DEFINITION_TYPE
++++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:3): pyenv_install_resolve_latest(local -a DEFINITION_CANDIDATES
++++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:4): pyenv_install_resolve_latest(local DEFINITION=3.6.10
++++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:6): pyenv_install_resolve_latest(DEFINITION_PREFIX=3.6.10
++++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:7): pyenv_install_resolve_latest(DEFINITION_TYPE=3.6.10
++++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:8): pyenv_install_resolve_latest([[ 3.6.10 != \3\.\6\.\1\0 ]]
++++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:18): pyenv_install_resolve_latestecho 3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:22): DEFINITIONS[$i]=3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/pyenv.d/install/latest.bash:25): unset pyenv_install_resolve_latest
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:154): COMBINED_STATUS=0
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:155): for DEFINITION in '"${DEFINITIONS[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:156): STATUS=0
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:161): pyenv-latest -q -k 3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:11): [[ 3 -gt 0 ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:13): case "$1" in
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:19): QUIET=1
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:20): shift
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:11): [[ 2 -gt 0 ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:13): case "$1" in
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:15): FROM_KNOWN=1
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:16): shift
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:11): [[ 1 -gt 0 ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:13): case "$1" in
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:23): break
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:28): prefix=3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:29): exitcode=0
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:31): IFS='
+'
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:33): [[ -z 1 ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:36): DEFINITION_CANDIDATES=($(python-build --definitions ))
+++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:36): python-build --definitions
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:24): exec
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:57): lib --definitions
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:51): lib(): '[' --definitions == --lib ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:59): type -P readlink
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:59): READLINK=/usr/bin/readlink
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:60): '[' -z /usr/bin/readlink ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1724): shopt -s extglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1735): shopt -u extglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2060): unset VERBOSE
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2061): unset KEEP_BUILD_PATH
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2062): unset HAS_PATCH
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2063): unset DEBUG
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2064): unset IPV4
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2065): unset IPV6
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2067): abs_dirname /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:70): abs_dirname(): local path=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:74): abs_dirname(): '[' -n /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:75): abs_dirname(): cd_path=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:76): abs_dirname(): [[ /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin != \/\o\p\t\/\h\o\m\e\b\r\e\w\/\C\e\l\l\a\r\/\p\y\e\n\v\/\2\.\3\.\2\3\/\p\l\u\g\i\n\s\/\p\y\t\h\o\n\-\b\u\i\l\d\/\b\i\n\/\p\y\t\h\o\n\-\b\u\i\l\d ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:77): abs_dirname(): cd /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:79): abs_dirname(): name=python-build
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:80): abs_dirname(): resolve_link python-build
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:66): resolve_link(): /usr/bin/readlink python-build
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:80): abs_dirname(): true
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:80): abs_dirname(): path=
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:74): abs_dirname(): '[' -n '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:83): abs_dirname(): echo /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2067): PYTHON_BUILD_INSTALL_PREFIX=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/..
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2069): IFS=:
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2069): PYTHON_BUILD_DEFINITIONS=($PYTHON_BUILD_DEFINITIONS ${PYTHON_BUILD_ROOT:-$PYTHON_BUILD_INSTALL_PREFIX}/share/python-build)
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2070): IFS=' 	
+'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2072): parse_options --definitions
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:29): parse_options(): OPTIONS=()
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:30): parse_options(): ARGUMENTS=()
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:31): parse_options(): local arg option index
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:33): parse_options(): for arg in '"$@"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:34): parse_options(): '[' - = - ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:35): parse_options(): '[' - = - ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:36): parse_options(): OPTIONS[${#OPTIONS[*]}]=definitions
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2074): for option in '"${OPTIONS[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2075): case "$option" in
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2082): list_definitions
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2048): list_definitions()for DEFINITION_DIR in '"${PYTHON_BUILD_DEFINITIONS[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2049): list_definitions()'[' -d /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2051): list_definitions()sort_versions
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2051): list_definitions()uniq
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2049): list_definitions()ls /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2049): list_definitions()grep -xv patches
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2055): sort_versions(): sed 'h; s/[+-]/./g; s/.p\([[:digit:]]\)/.z.\1/; s/$/.z/; G; s/\n/ /'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2056): sort_versions(): LC_ALL=C
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2056): sort_versions(): sort -t. -k 1,1 -k 2,2n -k 3,3n -k 4,4n -k 5,5n
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2056): sort_versions(): awk '{print $2}'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2083): exit 0
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:39): grep -qxFe 3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:39): printf '%s\n' 2.1.3 2.2.3 2.3.7 2.4.0 2.4.1 2.4.2 2.4.3 2.4.4 2.4.5 2.4.6 2.5.0 2.5.1 2.5.2 2.5.3 2.5.4 2.5.5 2.5.6 2.6.0 2.6.1 2.6.2 2.6.3 2.6.4 2.6.5 2.6.6 2.6.7 2.6.8 2.6.9 2.7.0 2.7-dev 2.7.1 2.7.2 2.7.3 2.7.4 2.7.5 2.7.6 2.7.7 2.7.8 2.7.9 2.7.10 2.7.11 2.7.12 2.7.13 2.7.14 2.7.15 2.7.16 2.7.17 2.7.18 3.0.1 3.1.0 3.1.1 3.1.2 3.1.3 3.1.4 3.1.5 3.2.0 3.2.1 3.2.2 3.2.3 3.2.4 3.2.5 3.2.6 3.3.0 3.3.1 3.3.2 3.3.3 3.3.4 3.3.5 3.3.6 3.3.7 3.4.0 3.4-dev 3.4.1 3.4.2 3.4.3 3.4.4 3.4.5 3.4.6 3.4.7 3.4.8 3.4.9 3.4.10 3.5.0 3.5-dev 3.5.1 3.5.2 3.5.3 3.5.4 3.5.5 3.5.6 3.5.7 3.5.8 3.5.9 3.5.10 3.6.0 3.6-dev 3.6.1 3.6.2 3.6.3 3.6.4 3.6.5 3.6.6 3.6.7 3.6.8 3.6.9 3.6.10 3.6.11 3.6.12 3.6.13 3.6.14 3.6.15 3.7.0 3.7-dev 3.7.1 3.7.2 3.7.3 3.7.4 3.7.5 3.7.6 3.7.7 3.7.8 3.7.9 3.7.10 3.7.11 3.7.12 3.7.13 3.7.14 3.7.15 3.7.16 3.7.17 3.8.0 3.8-dev 3.8.1 3.8.2 3.8.3 3.8.4 3.8.5 3.8.6 3.8.7 3.8.8 3.8.9 3.8.10 3.8.11 3.8.12 3.8.13 3.8.14 3.8.15 3.8.16 3.8.17 3.9.0 3.9-dev 3.9.1 3.9.2 3.9.4 3.9.5 3.9.6 3.9.7 3.9.8 3.9.9 3.9.10 3.9.11 3.9.12 3.9.13 3.9.14 3.9.15 3.9.16 3.9.17 3.10.0 3.10-dev 3.10.1 3.10.2 3.10.3 3.10.4 3.10.5 3.10.6 3.10.7 3.10.8 3.10.9 3.10.10 3.10.11 3.10.12 3.11.0 3.11-dev 3.11.1 3.11.2 3.11.3 3.11.4 3.12.0b4 3.12-dev 3.13-dev activepython-2.7.14 activepython-3.5.4 activepython-3.6.0 anaconda-1.4.0 anaconda-1.5.0 anaconda-1.5.1 anaconda-1.6.0 anaconda-1.6.1 anaconda-1.7.0 anaconda-1.8.0 anaconda-1.9.0 anaconda-1.9.1 anaconda-1.9.2 anaconda-2.0.0 anaconda-2.0.1 anaconda-2.1.0 anaconda-2.2.0 anaconda-2.3.0 anaconda-2.4.0 anaconda-4.0.0 anaconda2-2.4.0 anaconda2-2.4.1 anaconda2-2.5.0 anaconda2-4.0.0 anaconda2-4.1.0 anaconda2-4.1.1 anaconda2-4.2.0 anaconda2-4.3.0 anaconda2-4.3.1 anaconda2-4.4.0 anaconda2-5.0.0 anaconda2-5.0.1 anaconda2-5.1.0 anaconda2-5.2.0 anaconda2-5.3.0 anaconda2-5.3.1 anaconda2-2018.12 anaconda2-2019.03 anaconda2-2019.07 anaconda2-2019.10 anaconda3-2.0.0 anaconda3-2.0.1 anaconda3-2.1.0 anaconda3-2.2.0 anaconda3-2.3.0 anaconda3-2.4.0 anaconda3-2.4.1 anaconda3-2.5.0 anaconda3-4.0.0 anaconda3-4.1.0 anaconda3-4.1.1 anaconda3-4.2.0 anaconda3-4.3.0 anaconda3-4.3.1 anaconda3-4.4.0 anaconda3-5.0.0 anaconda3-5.0.1 anaconda3-5.1.0 anaconda3-5.2.0 anaconda3-5.3.0 anaconda3-5.3.1 anaconda3-2018.12 anaconda3-2019.03 anaconda3-2019.07 anaconda3-2019.10 anaconda3-2020.02 anaconda3-2020.07 anaconda3-2020.11 anaconda3-2021.04 anaconda3-2021.05 anaconda3-2021.11 anaconda3-2022.05 anaconda3-2022.10 anaconda3-2023.03-0 anaconda3-2023.03 anaconda3-2023.03-1 anaconda3-2023.07-0 cinder-3.8-dev cinder-3.10-dev graalpy-22.3.0 graalpy-23.0.0 graalpython-20.1.0 graalpython-20.2.0 graalpython-20.3.0 graalpython-21.0.0 graalpython-21.1.0 graalpython-21.2.0 graalpython-21.3.0 graalpython-22.0.0 graalpython-22.1.0 graalpython-22.2.0 ironpython-dev ironpython-2.7.4 ironpython-2.7.5 ironpython-2.7.6.3 ironpython-2.7.7 jython-dev jython-2.5.0 jython-2.5-dev jython-2.5.1 jython-2.5.2 jython-2.5.3 jython-2.5.4-rc1 jython-2.7.0 jython-2.7.1 jython-2.7.2 mambaforge-pypy3 mambaforge mambaforge-4.10.1-4 mambaforge-4.10.1-5 mambaforge-4.10.2-0 mambaforge-4.10.3-0 mambaforge-4.10.3-1 mambaforge-4.10.3-2 mambaforge-4.10.3-3 mambaforge-4.10.3-4 mambaforge-4.10.3-5 mambaforge-4.10.3-6 mambaforge-4.10.3-7 mambaforge-4.10.3-8 mambaforge-4.10.3-9 mambaforge-4.10.3-10 mambaforge-4.11.0-0 mambaforge-4.11.0-1 mambaforge-4.11.0-2 mambaforge-4.11.0-3 mambaforge-4.11.0-4 mambaforge-4.12.0-0 mambaforge-4.12.0-1 mambaforge-4.12.0-2 mambaforge-4.12.0-3 mambaforge-4.13.0-1 mambaforge-4.14.0-0 mambaforge-4.14.0-1 mambaforge-4.14.0-2 mambaforge-22.9.0-0 mambaforge-22.9.0-1 mambaforge-22.9.0-2 mambaforge-22.9.0-3 micropython-dev micropython-1.9.3 micropython-1.9.4 micropython-1.10 micropython-1.11 micropython-1.12 micropython-1.13 micropython-1.14 micropython-1.15 micropython-1.16 micropython-1.17 micropython-1.18 micropython-1.19.1 miniconda-latest miniconda-2.2.2 miniconda-3.0.0 miniconda-3.0.4 miniconda-3.0.5 miniconda-3.3.0 miniconda-3.4.2 miniconda-3.7.0 miniconda-3.8.3 miniconda-3.9.1 miniconda-3.10.1 miniconda-3.16.0 miniconda-3.18.3 miniconda2-latest miniconda2-2.7-4.8.3 miniconda2-3.18.3 miniconda2-3.19.0 miniconda2-4.0.5 miniconda2-4.1.11 miniconda2-4.3.14 miniconda2-4.3.21 miniconda2-4.3.27 miniconda2-4.3.30 miniconda2-4.3.31 miniconda2-4.4.10 miniconda2-4.5.1 miniconda2-4.5.4 miniconda2-4.5.11 miniconda2-4.5.12 miniconda2-4.6.14 miniconda2-4.7.10 miniconda2-4.7.12 miniconda3-latest miniconda3-2.2.2 miniconda3-3.0.0 miniconda3-3.0.4 miniconda3-3.0.5 miniconda3-3.3.0 miniconda3-3.4.2 miniconda3-3.7.0 miniconda3-3.7-4.8.2 miniconda3-3.7-4.8.3 miniconda3-3.7-4.9.2 miniconda3-3.7-4.10.1 miniconda3-3.7-4.10.3 miniconda3-3.7-4.11.0 miniconda3-3.7-4.12.0 miniconda3-3.7-22.11.1-1 miniconda3-3.7-23.1.0-1 miniconda3-3.8.3 miniconda3-3.8-4.8.2 miniconda3-3.8-4.8.3 miniconda3-3.8-4.9.2 miniconda3-3.8-4.10.1 miniconda3-3.8-4.10.3 miniconda3-3.8-4.11.0 miniconda3-3.8-4.12.0 miniconda3-3.8-22.11.1-1 miniconda3-3.8-23.1.0-1 miniconda3-3.8-23.3.1-0 miniconda3-3.8-23.5.0-3 miniconda3-3.9.1 miniconda3-3.9-4.9.2 miniconda3-3.9-4.10.1 miniconda3-3.9-4.10.3 miniconda3-3.9-4.11.0 miniconda3-3.9-4.12.0 miniconda3-3.9-22.11.1-1 miniconda3-3.9-23.1.0-1 miniconda3-3.9-23.3.1-0 miniconda3-3.9-23.5.0-3 miniconda3-3.10.1 miniconda3-3.10-22.11.1-1 miniconda3-3.10-23.1.0-1 miniconda3-3.10-23.3.1-0 miniconda3-3.10-23.5.0-3 miniconda3-3.11-23.5.0-3 miniconda3-3.16.0 miniconda3-3.18.3 miniconda3-3.19.0 miniconda3-4.0.5 miniconda3-4.1.11 miniconda3-4.2.12 miniconda3-4.3.11 miniconda3-4.3.14 miniconda3-4.3.21 miniconda3-4.3.27 miniconda3-4.3.30 miniconda3-4.3.31 miniconda3-4.4.10 miniconda3-4.5.1 miniconda3-4.5.4 miniconda3-4.5.11 miniconda3-4.5.12 miniconda3-4.6.14 miniconda3-4.7.10 miniconda3-4.7.12 miniforge-pypy3 miniforge3-latest miniforge3-4.9.2 miniforge3-4.10 miniforge3-4.10.1-1 miniforge3-4.10.1-3 miniforge3-4.10.1-5 miniforge3-4.10.2-0 miniforge3-4.10.3-0 miniforge3-4.10.3-1 miniforge3-4.10.3-2 miniforge3-4.10.3-3 miniforge3-4.10.3-4 miniforge3-4.10.3-5 miniforge3-4.10.3-6 miniforge3-4.10.3-7 miniforge3-4.10.3-8 miniforge3-4.10.3-9 miniforge3-4.10.3-10 miniforge3-4.11.0-0 miniforge3-4.11.0-1 miniforge3-4.11.0-2 miniforge3-4.11.0-3 miniforge3-4.11.0-4 miniforge3-4.12.0-0 miniforge3-4.12.0-1 miniforge3-4.12.0-2 miniforge3-4.12.0-3 miniforge3-4.13.0-0 miniforge3-4.13.0-1 miniforge3-4.14.0-0 miniforge3-4.14.0-1 miniforge3-4.14.0-2 miniforge3-22.9.0-0 miniforge3-22.9.0-1 miniforge3-22.9.0-2 miniforge3-22.9.0-3 miniforge3-22.11.1-4 nogil-3.9.10 nogil-3.9.10-1 pypy-c-jit-latest pypy-dev pypy-stm-2.3 pypy-stm-2.5.1 pypy-1.5-src pypy-1.6 pypy-1.7 pypy-1.8 pypy-1.9 pypy-2.0-src pypy-2.0 pypy-2.0.1-src pypy-2.0.1 pypy-2.0.2-src pypy-2.0.2 pypy-2.1-src pypy-2.1 pypy-2.2-src pypy-2.2 pypy-2.2.1-src pypy-2.2.1 pypy-2.3-src pypy-2.3 pypy-2.3.1-src pypy-2.3.1 pypy-2.4.0-src pypy-2.4.0 pypy-2.5.0-src pypy-2.5.0 pypy-2.5.1-src pypy-2.5.1 pypy-2.6.0-src pypy-2.6.0 pypy-2.6.1-src pypy-2.6.1 pypy-4.0.0-src pypy-4.0.0 pypy-4.0.1-src pypy-4.0.1 pypy-5.0.0-src pypy-5.0.0 pypy-5.0.1-src pypy-5.0.1 pypy-5.1-src pypy-5.1 pypy-5.1.1-src pypy-5.1.1 pypy-5.3-src pypy-5.3 pypy-5.3.1-src pypy-5.3.1 pypy-5.4-src pypy-5.4 pypy-5.4.1-src pypy-5.4.1 pypy-5.6.0-src pypy-5.6.0 pypy-5.7.0-src pypy-5.7.0 pypy-5.7.1-src pypy-5.7.1 pypy2-5.3-src pypy2-5.3 pypy2-5.3.1-src pypy2-5.3.1 pypy2-5.4-src pypy2-5.4 pypy2-5.4.1-src pypy2-5.4.1 pypy2-5.6.0-src pypy2-5.6.0 pypy2-5.7.0-src pypy2-5.7.0 pypy2-5.7.1-src pypy2-5.7.1 pypy2.7-5.8.0-src pypy2.7-5.8.0 pypy2.7-5.9.0-src pypy2.7-5.9.0 pypy2.7-5.10.0-src pypy2.7-5.10.0 pypy2.7-6.0.0-src pypy2.7-6.0.0 pypy2.7-7.0.0-src pypy2.7-7.0.0 pypy2.7-7.1.0-src pypy2.7-7.1.0 pypy2.7-7.1.1-src pypy2.7-7.1.1 pypy2.7-7.2.0-src pypy2.7-7.2.0 pypy2.7-7.3.0-src pypy2.7-7.3.0 pypy2.7-7.3.1-src pypy2.7-7.3.1 pypy2.7-7.3.2-src pypy2.7-7.3.2 pypy2.7-7.3.3-src pypy2.7-7.3.3 pypy2.7-7.3.4-src pypy2.7-7.3.4 pypy2.7-7.3.5-src pypy2.7-7.3.5 pypy2.7-7.3.6-src pypy2.7-7.3.6 pypy2.7-7.3.8-src pypy2.7-7.3.8 pypy2.7-7.3.9-src pypy2.7-7.3.9 pypy2.7-7.3.10-src pypy2.7-7.3.10 pypy2.7-7.3.11-src pypy2.7-7.3.11 pypy2.7-7.3.12-src pypy2.7-7.3.12 pypy3-2.3.1-src pypy3-2.3.1 pypy3-2.4.0-src pypy3-2.4.0 pypy3.3-5.2-alpha1-src pypy3.3-5.2-alpha1 pypy3.3-5.5-alpha-src pypy3.3-5.5-alpha pypy3.5-c-jit-latest pypy3.5-5.7-beta-src pypy3.5-5.7-beta pypy3.5-5.7.1-beta-src pypy3.5-5.7.1-beta pypy3.5-5.8.0-src pypy3.5-5.8.0 pypy3.5-5.9.0-src pypy3.5-5.9.0 pypy3.5-5.10.0-src pypy3.5-5.10.0 pypy3.5-5.10.1-src pypy3.5-5.10.1 pypy3.5-6.0.0-src pypy3.5-6.0.0 pypy3.5-7.0.0-src pypy3.5-7.0.0 pypy3.6-7.0.0-src pypy3.6-7.0.0 pypy3.6-7.1.0-src pypy3.6-7.1.0 pypy3.6-7.1.1-src pypy3.6-7.1.1 pypy3.6-7.2.0-src pypy3.6-7.2.0 pypy3.6-7.3.0-src pypy3.6-7.3.0 pypy3.6-7.3.1-src pypy3.6-7.3.1 pypy3.6-7.3.2-src pypy3.6-7.3.2 pypy3.6-7.3.3-src pypy3.6-7.3.3 pypy3.7-c-jit-latest pypy3.7-7.3.2-src pypy3.7-7.3.2 pypy3.7-7.3.3-src pypy3.7-7.3.3 pypy3.7-7.3.4-src pypy3.7-7.3.4 pypy3.7-7.3.5-src pypy3.7-7.3.5 pypy3.7-7.3.6-src pypy3.7-7.3.6 pypy3.7-7.3.7-src pypy3.7-7.3.7 pypy3.7-7.3.8-src pypy3.7-7.3.8 pypy3.7-7.3.9-src pypy3.7-7.3.9 pypy3.8-7.3.6-src pypy3.8-7.3.6 pypy3.8-7.3.7-src pypy3.8-7.3.7 pypy3.8-7.3.8-src pypy3.8-7.3.8 pypy3.8-7.3.9-src pypy3.8-7.3.9 pypy3.8-7.3.10-src pypy3.8-7.3.10 pypy3.8-7.3.11-src pypy3.8-7.3.11 pypy3.9-7.3.8-src pypy3.9-7.3.8 pypy3.9-7.3.9-src pypy3.9-7.3.9 pypy3.9-7.3.10-src pypy3.9-7.3.10 pypy3.9-7.3.11-src pypy3.9-7.3.11 pypy3.9-7.3.12-src pypy3.9-7.3.12 pypy3.10-7.3.12-src pypy3.10-7.3.12 pyston-2.2 pyston-2.3 pyston-2.3.1 pyston-2.3.2 pyston-2.3.3 pyston-2.3.4 pyston-2.3.5 stackless-dev stackless-2.7-dev stackless-2.7.2 stackless-2.7.3 stackless-2.7.4 stackless-2.7.5 stackless-2.7.6 stackless-2.7.7 stackless-2.7.8 stackless-2.7.9 stackless-2.7.10 stackless-2.7.11 stackless-2.7.12 stackless-2.7.14 stackless-2.7.16 stackless-3.2.2 stackless-3.2.5 stackless-3.3.5 stackless-3.3.7 stackless-3.4-dev stackless-3.4.2 stackless-3.4.7 stackless-3.5.4 stackless-3.7.5
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:40): echo 3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/libexec/pyenv-latest:41): exit 0
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:161): DEFINITION=3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:164): VERSION_NAME=3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:165): '[' -n '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:166): PREFIX=/Users/mustaphabkl/.pyenv/versions/3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:168): '[' -d /Users/mustaphabkl/.pyenv/versions/3.6.10 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:172): '[' -d /Users/mustaphabkl/.pyenv/versions/3.6.10/bin ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:190): '[' -n '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:197): '[' -z '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:197): '[' -d /Users/mustaphabkl/.pyenv/cache ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:201): '[' -z '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:202): case "${VERSION_NAME}" in
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:208): for version_info in '"${VERSION_NAME%-dev}"' '"${VERSION_NAME%.*}"' '"${VERSION_NAME%%.*}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:208): pyenv-whence python3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:208): true
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:208): for version_info in '"${VERSION_NAME%-dev}"' '"${VERSION_NAME%.*}"' '"${VERSION_NAME%%.*}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:208): pyenv-whence python3.6
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:208): true
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:208): for version_info in '"${VERSION_NAME%-dev}"' '"${VERSION_NAME%.*}"' '"${VERSION_NAME%%.*}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:208): pyenv-whence python3
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:210): for version in '$(pyenv-whence "python${version_info}" 2>/dev/null || true)'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:211): [[ 3.10.3 != \a\n\a\c\o\n\d\a* ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:211): [[ 3.10.3 != \m\i\n\i\c\o\n\d\a* ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:212): PYENV_BOOTSTRAP_VERSION=3.10.3
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:213): break 2
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:245): '[' -n 3.10.3 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:246): export PYENV_VERSION=3.10.3
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:246): PYENV_VERSION=3.10.3
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:253): python-build -v 3.6.10 /Users/mustaphabkl/.pyenv/versions/3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:24): exec
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:57): lib -v
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:51): lib(): '[' -v == --lib ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:59): type -P readlink
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:59): READLINK=/usr/bin/readlink
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:60): '[' -z /usr/bin/readlink ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1724): shopt -s extglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1735): shopt -u extglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2060): unset VERBOSE
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2061): unset KEEP_BUILD_PATH
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2062): unset HAS_PATCH
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2063): unset DEBUG
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2064): unset IPV4
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2065): unset IPV6
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2067): abs_dirname /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:70): abs_dirname(): local path=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:74): abs_dirname(): '[' -n /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:75): abs_dirname(): cd_path=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:76): abs_dirname(): [[ /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin != \/\o\p\t\/\h\o\m\e\b\r\e\w\/\C\e\l\l\a\r\/\p\y\e\n\v\/\2\.\3\.\2\3\/\p\l\u\g\i\n\s\/\p\y\t\h\o\n\-\b\u\i\l\d\/\b\i\n\/\p\y\t\h\o\n\-\b\u\i\l\d ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:77): abs_dirname(): cd /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:79): abs_dirname(): name=python-build
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:80): abs_dirname(): resolve_link python-build
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:66): resolve_link(): /usr/bin/readlink python-build
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:80): abs_dirname(): true
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:80): abs_dirname(): path=
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:74): abs_dirname(): '[' -n '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:83): abs_dirname(): echo /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2067): PYTHON_BUILD_INSTALL_PREFIX=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/..
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2069): IFS=:
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2069): PYTHON_BUILD_DEFINITIONS=($PYTHON_BUILD_DEFINITIONS ${PYTHON_BUILD_ROOT:-$PYTHON_BUILD_INSTALL_PREFIX}/share/python-build)
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2070): IFS=' 	
+'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2072): parse_options -v 3.6.10 /Users/mustaphabkl/.pyenv/versions/3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:29): parse_options(): OPTIONS=()
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:30): parse_options(): ARGUMENTS=()
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:31): parse_options(): local arg option index
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:33): parse_options(): for arg in '"$@"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:34): parse_options(): '[' - = - ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:35): parse_options(): '[' v = - ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:38): parse_options(): index=1
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:39): parse_options(): option=v
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:40): parse_options(): '[' -n v ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:41): parse_options(): OPTIONS[${#OPTIONS[*]}]=v
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:42): parse_options(): index=2
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:39): parse_options(): option=
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:40): parse_options(): '[' -n '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:40): parse_options(): break
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:33): parse_options(): for arg in '"$@"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:34): parse_options(): '[' 3 = - ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:46): parse_options(): ARGUMENTS[${#ARGUMENTS[*]}]=3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:33): parse_options(): for arg in '"$@"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:34): parse_options(): '[' / = - ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:46): parse_options(): ARGUMENTS[${#ARGUMENTS[*]}]=/Users/mustaphabkl/.pyenv/versions/3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2074): for option in '"${OPTIONS[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2075): case "$option" in
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2089): VERBOSE=true
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2112): '[' 2 -eq 2 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2114): DEFINITION_PATH=3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2115): '[' -z 3.6.10 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2117): '[' '!' -f 3.6.10 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2118): for DEFINITION_DIR in '"${PYTHON_BUILD_DEFINITIONS[@]}"'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2119): '[' -f /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/3.6.10 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2120): DEFINITION_PATH=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2121): break
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2125): '[' '!' -f /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/3.6.10 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2131): PREFIX_PATH=/Users/mustaphabkl/.pyenv/versions/3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2132): '[' -z /Users/mustaphabkl/.pyenv/versions/3.6.10 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2134): '[' Users/mustaphabkl/.pyenv/versions/3.6.10 = /Users/mustaphabkl/.pyenv/versions/3.6.10 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2138): '[' -z /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/ ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2141): TMP=/var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2145): tmp_executable=/var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build-test.52703
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2146): noexec=
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2147): mkdir -p /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2147): touch /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build-test.52703
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2148): cat
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2152): chmod +x /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build-test.52703
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2157): /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build-test.52703
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2158): rm -f /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build-test.52703
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2159): '[' -n '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2164): '[' -z '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2165): uname -s
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2165): '[' FreeBSD = Darwin ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2176): export MAKE=make
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2176): MAKE=make
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2180): '[' -n '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2183): unset PYTHON_BUILD_CACHE_PATH
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2186): '[' -z '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2187): PYTHON_BUILD_MIRROR_URL=https://pyenv.github.io/pythons
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2188): PYTHON_BUILD_DEFAULT_MIRROR=1
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2194): '[' -n '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2198): has_checksum_support compute_sha2
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:291): has_checksum_supporlocal checksum_command=compute_sha2
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:292): has_checksum_supporlocal has_checksum_var=HAS_CHECKSUM_SUPPORT_compute_sha2
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:294): has_checksum_suppor'[' -z '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:295): has_checksum_suppoecho test
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:295): has_checksum_suppocompute_sha2
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:259): compute_sha2(): local output
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:260): compute_sha2(): type shasum
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:261): compute_sha2(): shasum -a 256 -b
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:261): compute_sha2(): output='f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2 *-'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:262): compute_sha2(): echo f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:295): has_checksum_suppoecho 0
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:295): has_checksum_supporprintf -v HAS_CHECKSUM_SUPPORT_compute_sha2 0
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:297): has_checksum_supporreturn 0
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2202): ARIA2_OPTS='  '
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2203): CURL_OPTS='  '
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2204): WGET_OPTS='  '
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2207): '[' -n '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2211): [[   != *\-\-\e\n\a\b\l\e\-\f\r\a\m\e\w\o\r\k* ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2211): [[   != *\-\-\d\i\s\a\b\l\e\-\s\h\a\r\e\d* ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2212): package_option python configure --enable-shared
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:754): package_option(): local package_name=python
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:755): package_option(): local command_name=configure
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:756): package_option(): capitalize python_configure
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): printf %s python_configure
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): tr a-z A-Z
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:756): package_option(): local variable=PYTHON_CONFIGURE_OPTS_ARRAY
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:757): package_option(): local 'array=PYTHON_CONFIGURE_OPTS_ARRAY[@]'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:758): package_option(): shift 2
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:759): package_option(): value=("${!array}" "$@")
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:759): package_option(): local value
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:760): package_option(): eval 'PYTHON_CONFIGURE_OPTS_ARRAY=( "${value[@]}" )'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:760): package_option(): PYTHON_CONFIGURE_OPTS_ARRAY=("${value[@]}")
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2216): package_option python configure --libdir=/Users/mustaphabkl/.pyenv/versions/3.6.10/lib
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:754): package_option(): local package_name=python
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:755): package_option(): local command_name=configure
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:756): package_option(): capitalize python_configure
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): printf %s python_configure
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): tr a-z A-Z
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:756): package_option(): local variable=PYTHON_CONFIGURE_OPTS_ARRAY
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:757): package_option(): local 'array=PYTHON_CONFIGURE_OPTS_ARRAY[@]'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:758): package_option(): shift 2
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:759): package_option(): value=("${!array}" "$@")
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:759): package_option(): local value
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:760): package_option(): eval 'PYTHON_CONFIGURE_OPTS_ARRAY=( "${value[@]}" )'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:760): package_option(): PYTHON_CONFIGURE_OPTS_ARRAY=("${value[@]}")
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2219): [[   --enable-shared --libdir=/Users/mustaphabkl/.pyenv/versions/3.6.10/lib == *\-\-\e\n\a\b\l\e\-\s\h\a\r\e\d* ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2221): [[ '' != *\-\r\p\a\t\h\=* ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2222): export LDFLAGS=-Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2222): LDFLAGS=-Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2227): [[ '' == *\-\-\s\h\a\r\e\d* ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2232): shopt -s extglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2233): [[   == *\-\-\e\n\a\b\l\e\-\f\r\a\m\e\w\o\r\k* ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2258): shopt -u extglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2261): shopt -s extglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2262): [[   == *\-\-\e\n\a\b\l\e\-\u\n\i\v\e\r\s\a\l\s\d\k* ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2283): shopt -u extglob
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2286): [[ '' != *\-\-\e\n\a\b\l\e\-\u\n\i\c\o\d\e\=* ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2287): is_mac
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 0 -eq 0 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2301): unset PIP_REQUIRE_VENV
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2302): unset PIP_REQUIRE_VIRTUALENV
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2305): '[' -e /Users/mustaphabkl/.pydistutils.cfg ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2312): '[' -z '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2313): '[' -n '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2317): EZ_SETUP_URL=https://bootstrap.pypa.io/ez_setup.py
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2320): '[' -z '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2321): '[' -n '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2330): case "${DEFINITION_PATH##*/}" in
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2350): GET_PIP_URL=https://bootstrap.pypa.io/pip/3.6/get-pip.py
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2360): is_mac
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 0 -eq 0 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2361): '[' -z '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2362): sw_vers -productVersion
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2362): MACOS_VERSION=13.2.1
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2363): MACOS_VERSION_ARRAY=(${MACOS_VERSION//\./ })
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2364): '[' 3 -ge 2 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2365): export MACOSX_DEPLOYMENT_TARGET=13.2
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2365): MACOSX_DEPLOYMENT_TARGET=13.2
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2392): date +%Y%m%d%H%M%S
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2392): SEED=20230726201300.52703
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2393): LOG_PATH=/var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2394): python_bin_suffix 3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2371): python_bin_suffixlocal version_name version_info
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2372): python_bin_suffixcase "$1" in
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2374): python_bin_suffixversion_name=3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2375): python_bin_suffixversion_name=3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2376): python_bin_suffixversion_name=3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2377): python_bin_suffixversion_name=3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2378): python_bin_suffixversion_info=(${version_name//./ })
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2379): python_bin_suffixecho 3.6
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2394): PYTHON_BIN=/Users/mustaphabkl/.pyenv/versions/3.6.10/bin/python3.6
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2395): pwd
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2395): CWD=/Users/mustaphabkl/Sites/baffony/pos
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2397): '[' -z '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2398): BUILD_PATH=/var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2403): exec
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2404): '[' -n true ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2406): TAIL_PID=52734
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2407): trap 'kill 52734' SIGINT SIGTERM EXIT
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2410): export 'LDFLAGS=-L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2405): tail -f /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2410): LDFLAGS='-L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2411): export CPPFLAGS=-I/Users/mustaphabkl/.pyenv/versions/3.6.10/include
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2411): CPPFLAGS=-I/Users/mustaphabkl/.pyenv/versions/3.6.10/include
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2413): unset PYTHONHOME
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2414): unset PYTHONPATH
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2416): trap build_failed ERR
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2417): mkdir -p /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2418): source /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/3.6.10:1): prefer_openssl11
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1473): prefer_openssl11(PYTHON_BUILD_HOMEBREW_OPENSSL_FORMULA='openssl@1.1 openssl'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1474): prefer_openssl11(export PYTHON_BUILD_HOMEBREW_OPENSSL_FORMULA
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/3.6.10:2): install_package openssl-1.1.0j https://www.openssl.org/source/old/1.1.0/openssl-1.1.0j.tar.gz#31bec6c203ce1a8e93d5994f4ed304c63ccf07676118b6634edded12ad1b3246 mac_openssl --if has_broken_mac_openssl
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:186): install_package():install_package_using tarball 1 openssl-1.1.0j https://www.openssl.org/source/old/1.1.0/openssl-1.1.0j.tar.gz#31bec6c203ce1a8e93d5994f4ed304c63ccf07676118b6634edded12ad1b3246 mac_openssl --if has_broken_mac_openssl
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:218): install_package_uslocal package_type=tarball
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:219): install_package_uslocal package_type_nargs=1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:220): install_package_uslocal package_name=openssl-1.1.0j
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:221): install_package_usshift 3
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:223): install_package_usfetch_args=("$package_name" "${@:1:$package_type_nargs}")
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:223): install_package_uslocal fetch_args
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:224): install_package_usmake_args=("$package_name")
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:224): install_package_uslocal make_args
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:225): install_package_uslocal arg last_arg
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:227): install_package_usfor arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:228): install_package_us'[' '' = --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:230): install_package_us'[' mac_openssl '!=' --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:231): install_package_usmake_args["${#make_args[@]}"]=mac_openssl
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:233): install_package_uslast_arg=mac_openssl
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:227): install_package_usfor arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:228): install_package_us'[' mac_openssl = --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:230): install_package_us'[' --if '!=' --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:233): install_package_uslast_arg=--if
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:227): install_package_usfor arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:228): install_package_us'[' --if = --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:229): install_package_ushas_broken_mac_openssl
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1492): has_broken_mac_opis_mac
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 0 -eq 0 ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1493): has_broken_mac_o/usr/bin/openssl version
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1493): has_broken_mac_oplocal 'openssl_version=LibreSSL 3.3.6'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1494): has_broken_mac_op[[ LibreSSL 3.3.6 = \O\p\e\n\S\S\L\ \0\.\9\.\8?* ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1494): has_broken_mac_op[[ LibreSSL 3.3.6 = \L\i\b\r\e\S\S\L* ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1495): has_broken_mac_opuse_homebrew_openssl
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1499): use_homebrew_opencan_use_homebrew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:121): can_use_homebrew()'[' -z '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:122): can_use_homebrew()is_mac
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 0 -eq 0 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1500): use_homebrew_opencommand -v brew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1501): use_homebrew_openfor openssl in '${PYTHON_BUILD_HOMEBREW_OPENSSL_FORMULA:-openssl}'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1502): use_homebrew_opebrew --prefix openssl@1.1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1502): use_homebrew_openlocal ssldir=/opt/homebrew/opt/openssl@1.1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1503): use_homebrew_open'[' -d /opt/homebrew/opt/openssl@1.1 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1504): use_homebrew_openecho 'python-build: use openssl@1.1 from homebrew'
+python-build: use openssl@1.1 from homebrew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1505): use_homebrew_open[[ -n '' ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1510): use_homebrew_openexport 'CPPFLAGS=-I/opt/homebrew/opt/openssl@1.1/include  -I/Users/mustaphabkl/.pyenv/versions/3.6.10/include'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1510): use_homebrew_openCPPFLAGS='-I/opt/homebrew/opt/openssl@1.1/include  -I/Users/mustaphabkl/.pyenv/versions/3.6.10/include'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1511): use_homebrew_openexport 'LDFLAGS=-L/opt/homebrew/opt/openssl@1.1/lib -L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1511): use_homebrew_openLDFLAGS='-L/opt/homebrew/opt/openssl@1.1/lib -L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1513): use_homebrew_openexport PKG_CONFIG_PATH=/opt/homebrew/opt/openssl@1.1/lib/pkgconfig/:
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1513): use_homebrew_openPKG_CONFIG_PATH=/opt/homebrew/opt/openssl@1.1/lib/pkgconfig/:
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1514): use_homebrew_openreturn
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:229): install_package_usreturn 0
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/3.6.10:3): install_package readline-8.0 https://ftpmirror.gnu.org/readline/readline-8.0.tar.gz#e339f51971478d369f8a053a330a190781acb9864cf4c541060f12078948e461 mac_readline --if has_broken_mac_readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:186): install_package():install_package_using tarball 1 readline-8.0 https://ftpmirror.gnu.org/readline/readline-8.0.tar.gz#e339f51971478d369f8a053a330a190781acb9864cf4c541060f12078948e461 mac_readline --if has_broken_mac_readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:218): install_package_uslocal package_type=tarball
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:219): install_package_uslocal package_type_nargs=1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:220): install_package_uslocal package_name=readline-8.0
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:221): install_package_usshift 3
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:223): install_package_usfetch_args=("$package_name" "${@:1:$package_type_nargs}")
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:223): install_package_uslocal fetch_args
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:224): install_package_usmake_args=("$package_name")
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:224): install_package_uslocal make_args
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:225): install_package_uslocal arg last_arg
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:227): install_package_usfor arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:228): install_package_us'[' '' = --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:230): install_package_us'[' mac_readline '!=' --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:231): install_package_usmake_args["${#make_args[@]}"]=mac_readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:233): install_package_uslast_arg=mac_readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:227): install_package_usfor arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:228): install_package_us'[' mac_readline = --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:230): install_package_us'[' --if '!=' --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:233): install_package_uslast_arg=--if
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:227): install_package_usfor arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:228): install_package_us'[' --if = --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:229): install_package_ushas_broken_mac_readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1452): has_broken_mac_reis_mac
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 0 -eq 0 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1453): has_broken_mac_reconfigured_with_package_dir python readline/rlconf.h
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1363): configured_with_capitalize python
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): printf %s python
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): tr a-z A-Z
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1363): configured_with_plocal package_var_name=PYTHON
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1364): configured_with_pshift 1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1365): configured_with_plocal PACKAGE_CONFIGURE_OPTS=PYTHON_CONFIGURE_OPTS
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1366): configured_with_plocal 'PACKAGE_CONFIGURE_OPTS_ARRAY=PYTHON_MAKE_OPTS_ARRAY[@]'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1367): configured_with_plocal arg flag
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1382): configured_with_preturn 1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1454): has_broken_mac_reuse_homebrew_readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1458): use_homebrew_readcan_use_homebrew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:121): can_use_homebrew()'[' -z '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:122): can_use_homebrew()is_mac
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 0 -eq 0 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1459): use_homebrew_readconfigured_with_package_dir python readline/rlconf.h
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1363): configured_with_capitalize python
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): printf %s python
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): tr a-z A-Z
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1363): configured_with_plocal package_var_name=PYTHON
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1364): configured_with_pshift 1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1365): configured_with_plocal PACKAGE_CONFIGURE_OPTS=PYTHON_CONFIGURE_OPTS
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1366): configured_with_plocal 'PACKAGE_CONFIGURE_OPTS_ARRAY=PYTHON_MAKE_OPTS_ARRAY[@]'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1367): configured_with_plocal arg flag
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1382): configured_with_preturn 1
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1460): use_homebrew_reabrew --prefix readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1460): use_homebrew_readlocal libdir=/opt/homebrew/opt/readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1461): use_homebrew_read'[' -d /opt/homebrew/opt/readline ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1462): use_homebrew_readecho 'python-build: use readline from homebrew'
+python-build: use readline from homebrew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1463): use_homebrew_readexport 'CPPFLAGS=-I/opt/homebrew/opt/readline/include -I/opt/homebrew/opt/openssl@1.1/include  -I/Users/mustaphabkl/.pyenv/versions/3.6.10/include'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1463): use_homebrew_readCPPFLAGS='-I/opt/homebrew/opt/readline/include -I/opt/homebrew/opt/openssl@1.1/include  -I/Users/mustaphabkl/.pyenv/versions/3.6.10/include'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1464): use_homebrew_readexport 'LDFLAGS=-L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1464): use_homebrew_readLDFLAGS='-L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:229): install_package_usreturn 0
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/3.6.10:4): has_tar_xz_support
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:548): has_tar_xz_supporttar Jcf - /dev/null
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/3.6.10:5): install_package Python-3.6.10 https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz#0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de standard verify_py37 copy_python_gdb ensurepip
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:186): install_package():install_package_using tarball 1 Python-3.6.10 https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz#0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de standard verify_py37 copy_python_gdb ensurepip
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:218): install_package_uslocal package_type=tarball
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:219): install_package_uslocal package_type_nargs=1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:220): install_package_uslocal package_name=Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:221): install_package_usshift 3
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:223): install_package_usfetch_args=("$package_name" "${@:1:$package_type_nargs}")
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:223): install_package_uslocal fetch_args
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:224): install_package_usmake_args=("$package_name")
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:224): install_package_uslocal make_args
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:225): install_package_uslocal arg last_arg
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:227): install_package_usfor arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:228): install_package_us'[' '' = --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:230): install_package_us'[' standard '!=' --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:231): install_package_usmake_args["${#make_args[@]}"]=standard
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:233): install_package_uslast_arg=standard
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:227): install_package_usfor arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:228): install_package_us'[' standard = --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:230): install_package_us'[' verify_py37 '!=' --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:231): install_package_usmake_args["${#make_args[@]}"]=verify_py37
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:233): install_package_uslast_arg=verify_py37
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:227): install_package_usfor arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:228): install_package_us'[' verify_py37 = --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:230): install_package_us'[' copy_python_gdb '!=' --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:231): install_package_usmake_args["${#make_args[@]}"]=copy_python_gdb
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:233): install_package_uslast_arg=copy_python_gdb
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:227): install_package_usfor arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:228): install_package_us'[' copy_python_gdb = --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:230): install_package_us'[' ensurepip '!=' --if ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:231): install_package_usmake_args["${#make_args[@]}"]=ensurepip
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:233): install_package_uslast_arg=ensurepip
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:236): install_package_uspushd /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703
+/var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703 ~/Sites/baffony/pos
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:237): install_package_usfetch_tarball Python-3.6.10 https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz#0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:417): fetch_tarball(): local package_name=Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:418): fetch_tarball(): local package_url=https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz#0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:419): fetch_tarball(): local mirror_url
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:420): fetch_tarball(): local checksum
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:421): fetch_tarball(): local extracted_dir
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:423): fetch_tarball(): '[' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz#0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de '!=' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:424): fetch_tarball(): checksum=0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:425): fetch_tarball(): package_url=https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:427): fetch_tarball(): '[' -n https://pyenv.github.io/pythons ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:428): fetch_tarball(): [[ -z 1 ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:428): fetch_tarball(): [[ https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz != */www.python.org/* ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:434): fetch_tarball(): local tar_args=xzf
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:435): fetch_tarball(): local package_filename=Python-3.6.10.tar.gz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:437): fetch_tarball(): '[' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz '!=' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:445): fetch_tarball(): '[' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz '!=' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar. ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:446): fetch_tarball(): type -p xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:449): fetch_tarball(): package_filename=Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:450): fetch_tarball(): tar_args=xJf
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:453): fetch_tarball(): reuse_existing_tarball Python-3.6.10.tar.xz 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:501): reuse_existing_tarlocal package_filename=Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:502): reuse_existing_tarlocal checksum=0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:505): reuse_existing_tar'[' -e Python-3.6.10.tar.xz ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:510): reuse_existing_tar'[' -n '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:510): reuse_existing_tarreturn 1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:455): fetch_tarball(): echo 'Downloading Python-3.6.10.tar.xz...'
+Downloading Python-3.6.10.tar.xz...
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:456): fetch_tarball(): http head ''
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:339): http(): local method=head
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:340): http(): '[' -n '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:340): http(): return 1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:458): fetch_tarball(): download_tarball https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz Python-3.6.10.tar.xz 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:519): download_tarball()local official_source=www.python.org/ftp/python
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:520): download_tarball()'[' -n '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:523): download_tarball()local package_url=https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:525): download_tarball()'[' -n https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:527): download_tarball()local package_filename=Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:528): download_tarball()local checksum=0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:530): download_tarball()echo '-> https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz'
+-> https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:532): download_tarball()http get https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:339): http(): local method=get
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:340): http(): '[' -n https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:341): http(): shift 1
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:343): http(): detect_http_client
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:350): detect_http_clienlocal client
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:351): detect_http_clienfor client in aria2c curl wget
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:352): detect_http_clientype aria2c
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:351): detect_http_clienfor client in aria2c curl wget
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:352): detect_http_clientype curl
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:353): detect_http_clienecho curl
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:354): detect_http_clienreturn
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:343): http(): PYTHON_BUILD_HTTP_CLIENT=curl
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:344): http(): '[' -n curl ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:346): http(): http_get_curl https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:405): http_get_curl(): curl -q -o Python-3.6.10.tar.xz -sSLf https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:533): download_tarball()verify_checksum Python-3.6.10.tar.xz 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:301): verify_checksum():local checksum_command
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:302): verify_checksum():local filename=Python-3.6.10.tar.xz
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:303): verify_checksum()echo 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:303): verify_checksum()tr '[A-Z]' '[a-z]'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:303): verify_checksum():local expected_checksum=0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:306): verify_checksum():'[' -e Python-3.6.10.tar.xz ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:308): verify_checksum():case "${#expected_checksum}" in
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:311): verify_checksum():checksum_command=compute_sha2
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:322): verify_checksum():has_checksum_support compute_sha2
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:291): has_checksum_suppolocal checksum_command=compute_sha2
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:292): has_checksum_suppolocal has_checksum_var=HAS_CHECKSUM_SUPPORT_compute_sha2
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:294): has_checksum_suppo'[' -z defined ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:297): has_checksum_supporeturn 0
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:325): verify_checksum()tr '[A-Z]' '[a-z]'
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:325): verify_checksum(compute_sha2
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:259): compute_sha2(): local output
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:260): compute_sha2(): type shasum
++++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:261): compute_sha2():shasum -a 256 -b
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:261): compute_sha2(): output='0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de *-'
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:262): compute_sha2(): echo 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:325): verify_checksum()echo 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:325): verify_checksum():local computed_checksum=0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:326): verify_checksum():'[' -n 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:328): verify_checksum():'[' 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de '!=' 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:539): download_tarball()'[' -n '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:461): fetch_tarball(): tar xJf Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:462): fetch_tarball(): '[' '!' -d Python-3.6.10 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:467): fetch_tarball(): '[' -z '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:468): fetch_tarball(): rm -f Python-3.6.10.tar.xz
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:238): install_package_usmake_package Python-3.6.10 standard verify_py37 copy_python_gdb ensurepip
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:245): make_package(): local package_name=Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:246): make_package(): shift
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:248): make_package(): pushd Python-3.6.10
+/var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703/Python-3.6.10 /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703 ~/Sites/baffony/pos
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:249): make_package(): setup_builtin_patches Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1126): setup_builtin_patlocal package_name=Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1127): setup_builtin_patlocal package_patch_path=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/patches/3.6.10/Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1130): setup_builtin_pat[[ -n '' ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1133): setup_builtin_pat[[ -d /opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../share/python-build/patches/3.6.10/Python-3.6.10 ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:250): make_package(): before_install_package Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1118): before_install_palocal stub=1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:251): make_package(): build_package Python-3.6.10 standard verify_py37 copy_python_gdb ensurepip
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:735): build_package(): local package_name=Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:736): build_package(): shift
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:738): build_package(): '[' 4 -eq 0 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:741): build_package(): local 'commands=standard verify_py37 copy_python_gdb ensurepip'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:744): build_package(): echo 'Installing Python-3.6.10...'
+Installing Python-3.6.10...
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:746): build_package(): '[' -n '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:748): build_package(): for command in '$commands'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:749): build_package(): build_package_standard Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:842): build_package_stanbuild_package_standard_build Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:784): build_package_stanlocal package_name=Python-3.6.10
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:786): build_package_stan'[' '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:788): build_package_stan'[' -z '' ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:789): build_package_stanum_cpu_cores
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:168): num_cpu_cores(): local num
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:169): num_cpu_cores(): case "$(uname -s)" in
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:169): num_cpu_cores():uname -s
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:171): num_cpu_cores():sysctl -n hw.ncpu
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:171): num_cpu_cores(): num=8
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:182): num_cpu_cores(): echo 8
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:789): build_package_stanMAKE_OPTS='-j 8'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:793): build_package_stacapitalize Python
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): printf %s Python
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): tr a-z A-Z
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:793): build_package_stanlocal package_var_name=PYTHON
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:794): build_package_stanlocal PACKAGE_CONFIGURE=PYTHON_CONFIGURE
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:795): build_package_stanlocal PACKAGE_PREFIX_PATH=PYTHON_PREFIX_PATH
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:796): build_package_stanlocal PACKAGE_CONFIGURE_OPTS=PYTHON_CONFIGURE_OPTS
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:797): build_package_stanlocal 'PACKAGE_CONFIGURE_OPTS_ARRAY=PYTHON_CONFIGURE_OPTS_ARRAY[@]'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:798): build_package_stanlocal PACKAGE_MAKE_OPTS=PYTHON_MAKE_OPTS
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:799): build_package_stanlocal 'PACKAGE_MAKE_OPTS_ARRAY=PYTHON_MAKE_OPTS_ARRAY[@]'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:800): build_package_stanlocal PACKAGE_CFLAGS=PYTHON_CFLAGS
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:802): build_package_stan'[' PYTHON = PYTHON ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:803): build_package_stanuse_homebrew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1386): use_homebrew(): can_use_homebrew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:121): can_use_homebrew()'[' -z '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:122): can_use_homebrew()is_mac
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 0 -eq 0 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1389): use_homebrew(): command -v brew
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1390): use_homebrew(): brew --prefix
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1390): use_homebrew(): local brew_prefix=/opt/homebrew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1392): use_homebrew(): [[ -n /opt/homebrew ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1392): use_homebrew(): [[ /opt/homebrew != \/\u\s\r ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1392): use_homebrew(): [[ /opt/homebrew != \/\u\s\r\/\l\o\c\a\l ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1393): use_homebrew(): export 'CPPFLAGS=-I/opt/homebrew/opt/readline/include -I/opt/homebrew/opt/openssl@1.1/include  -I/Users/mustaphabkl/.pyenv/versions/3.6.10/include -I/opt/homebrew/include'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1393): use_homebrew(): CPPFLAGS='-I/opt/homebrew/opt/readline/include -I/opt/homebrew/opt/openssl@1.1/include  -I/Users/mustaphabkl/.pyenv/versions/3.6.10/include -I/opt/homebrew/include'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1394): use_homebrew(): export 'LDFLAGS=-L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -L/opt/homebrew/lib -Wl,-rpath,/opt/homebrew/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1394): use_homebrew(): LDFLAGS='-L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -L/opt/homebrew/lib -Wl,-rpath,/opt/homebrew/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1397): use_homebrew(): export 'LIBS=-L/opt/homebrew/lib -Wl,-rpath,/opt/homebrew/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1397): use_homebrew(): LIBS='-L/opt/homebrew/lib -Wl,-rpath,/opt/homebrew/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:804): build_package_stanuse_tcltk
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1682): use_tcltk(): can_use_homebrew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:121): can_use_homebrew()'[' -z '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:122): can_use_homebrew()is_mac
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 0 -eq 0 ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1683): use_tcltk(): brew --prefix tcl-tk
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1683): use_tcltk(): local tcltk_libdir=/opt/homebrew/opt/tcl-tk
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1685): use_tcltk(): get_tcltk_flag_from ''
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1664): get_tcltk_flag_fIFS='
+'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1666): get_tcltk_flag_fopts_arr=($(xargs -n1 <<<"$1"))
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1666): get_tcltk_flag_xargs -n1
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1666): get_tcltk_flag_flocal opts_arr
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1678): get_tcltk_flag_fIFS=' 	
+'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1685): use_tcltk(): local tcl_tk_libs=
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1689): use_tcltk(): [[ -n '' ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1691): use_tcltk(): '[' -d /opt/homebrew/opt/tcl-tk ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:805): build_package_stanuse_homebrew_readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1458): use_homebrew_readcan_use_homebrew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:121): can_use_homebrew()'[' -z '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:122): can_use_homebrew()is_mac
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 0 -eq 0 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1459): use_homebrew_readconfigured_with_package_dir python readline/rlconf.h
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1363): configured_with_capitalize python
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): printf %s python
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:88): capitalize(): tr a-z A-Z
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1363): configured_with_plocal package_var_name=PYTHON
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1364): configured_with_pshift 1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1365): configured_with_plocal PACKAGE_CONFIGURE_OPTS=PYTHON_CONFIGURE_OPTS
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1366): configured_with_plocal 'PACKAGE_CONFIGURE_OPTS_ARRAY=PYTHON_MAKE_OPTS_ARRAY[@]'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1367): configured_with_plocal arg flag
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1382): configured_with_preturn 1
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1460): use_homebrew_reabrew --prefix readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1460): use_homebrew_readlocal libdir=/opt/homebrew/opt/readline
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1461): use_homebrew_read'[' -d /opt/homebrew/opt/readline ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1462): use_homebrew_readecho 'python-build: use readline from homebrew'
+python-build: use readline from homebrew
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1463): use_homebrew_readexport 'CPPFLAGS=-I/opt/homebrew/opt/readline/include -I/opt/homebrew/opt/readline/include -I/opt/homebrew/opt/openssl@1.1/include  -I/Users/mustaphabkl/.pyenv/versions/3.6.10/include -I/opt/homebrew/include'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1463): use_homebrew_readCPPFLAGS='-I/opt/homebrew/opt/readline/include -I/opt/homebrew/opt/readline/include -I/opt/homebrew/opt/openssl@1.1/include  -I/Users/mustaphabkl/.pyenv/versions/3.6.10/include -I/opt/homebrew/include'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1464): use_homebrew_readexport 'LDFLAGS=-L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -L/opt/homebrew/lib -Wl,-rpath,/opt/homebrew/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1464): use_homebrew_readLDFLAGS='-L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -L/opt/homebrew/lib -Wl,-rpath,/opt/homebrew/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:806): build_package_stanis_mac -ge 1014
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 2 -eq 0 ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): osx_version
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:129): osx_version(): local -a ver
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:130): osx_version(): IFS=.
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:130): osx_version(): ver=(`sw_vers -productVersion`)
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:130): osx_version(): sw_vers -productVersion
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:131): osx_version(): IFS=' 	
+'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:132): osx_version(): echo 1302
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 1302 -ge 1014 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:807): build_package_stanuse_xcode_sdk_zlib
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1609): use_xcode_sdk_zli[[ clang != \c\l\a\n\g ]]
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1609): use_xcode_sdk_zlcommand -v clang
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1609): use_xcode_sdk_zli[[ /usr/bin/clang != \/\u\s\r\/\b\i\n\/\c\l\a\n\g ]]
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1610): use_xcode_sdk_zlxcrun --show-sdk-path
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1610): use_xcode_sdk_zlilocal xc_sdk_path=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1611): use_xcode_sdk_zli'[' -d /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1612): use_xcode_sdk_zliecho 'python-build: use zlib from xcode sdk'
+python-build: use zlib from xcode sdk
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1613): use_xcode_sdk_zliexport CFLAGS=-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1613): use_xcode_sdk_zliCFLAGS=-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1614): use_xcode_sdk_zliis_mac -ge 1100
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 2 -eq 0 ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): osx_version
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:129): osx_version(): local -a ver
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:130): osx_version(): IFS=.
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:130): osx_version(): ver=(`sw_vers -productVersion`)
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:130): osx_version(): sw_vers -productVersion
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:131): osx_version(): IFS=' 	
+'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:132): osx_version(): echo 1302
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 1302 -ge 1100 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1615): use_xcode_sdk_zliexport 'LDFLAGS=-L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -L/opt/homebrew/lib -Wl,-rpath,/opt/homebrew/lib -L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1615): use_xcode_sdk_zliLDFLAGS='-L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/readline/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -Wl,-rpath,/Users/mustaphabkl/.pyenv/versions/3.6.10/lib -L/opt/homebrew/lib -Wl,-rpath,/opt/homebrew/lib -L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:811): build_package_stanuse_dsymutil
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:1701): use_dsymutil(): [[ -n '' ]]
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:814): build_package_stan'[' defined ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:815): build_package_stanexport 'CFLAGS=-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include '
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:815): build_package_stanCFLAGS='-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include '
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:817): build_package_stan'[' -z '' ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:817): build_package_stanis_mac -ge 1010
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): uname -s
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:116): is_mac(): '[' Darwin = Darwin ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 2 -eq 0 ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): osx_version
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:129): osx_version(): local -a ver
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:130): osx_version(): IFS=.
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:130): osx_version(): ver=(`sw_vers -productVersion`)
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:130): osx_version(): sw_vers -productVersion
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:131): osx_version(): IFS=' 	
+'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:132): osx_version(): echo 1302
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:117): is_mac(): '[' 1302 -ge 1010 ']'
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:818): build_package_stanexport CC=clang
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:818): build_package_stanCC=clang
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:820): build_package_stan./configure --prefix=/Users/mustaphabkl/.pyenv/versions/3.6.10 --enable-shared --libdir=/Users/mustaphabkl/.pyenv/versions/3.6.10/lib
+checking build system type... arm-apple-darwin22.3.0
+checking host system type... arm-apple-darwin22.3.0
+checking for python3.6... no
+checking for python3... python3
+checking for --enable-universalsdk... no
+checking for --with-universal-archs... no
+checking MACHDEP... darwin
+checking for --without-gcc... no
+checking for --with-icc... no
+checking for gcc... clang
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether clang accepts -g... yes
+checking for clang option to accept ISO C89... none needed
+checking how to run the C preprocessor... clang -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for --with-cxx-main=<compiler>... no
+checking for clang++... no
+configure:
+
+  By default, distutils will build C++ extension modules with "clang++".
+  If this is not intended, then set CXX on the configure command line.
+  
+checking for the platform triplet based on compiler characteristics... darwin
+configure: error: internal configure error for the platform triplet, please file a bug report
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:821): build_package_stanreturn 1
+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:824): build_package_stanmake -j 8
+make: *** No targets specified and no makefile found.  Stop.
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:783): build_package_stabuild_failed
+
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:136): build_failed(): echo
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:137): build_failed(): colorize 1 'BUILD FAILED'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:96): colorize(): '[' -t 1 ']'
+BUILD FAILED+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:97): colorize(): echo -n 'BUILD FAILED'
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:138): build_failed(): os_information
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:102): os_information()type -p lsb_release
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:104): os_information()type -p sw_vers
++++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:105): os_information(sw_vers -productVersion
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:105): os_information()echo 'OS X 13.2.1'
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:138): build_failed(): version
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2033): version(): local git_revision
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2035): version(): GIT_DIR=/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/../../../.git
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2035): version(): git remote -v
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2035): version(): grep -q /pyenv
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2039): version(): echo 'python-build 20180424'
+ (OS X 13.2.1 using python-build 20180424)
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:138): build_failed(): echo ' (OS X 13.2.1 using python-build 20180424)'
+
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:139): build_failed(): echo
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:141): build_failed(): rmdir /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703
+Inspect or clean up the working tree at /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:142): build_failed(): echo 'Inspect or clean up the working tree at /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:145): build_failed(): file_is_not_empty /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:156): file_is_not_emptylocal filename=/var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log
+++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:157): file_is_not_emptwc -l /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:157): file_is_not_emptylocal 'line_count=     121 /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:159): file_is_not_empty'[' -n '     121 /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log' ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:160): file_is_not_emptywords=($line_count)
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:161): file_is_not_empty'[' 121 -gt 0 ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:146): build_failed(): colorize 33 'Results logged to /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:96): colorize(): '[' -t 1 ']'
+Results logged to /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log+++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:97): colorize(): echo -n 'Results logged to /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log'
+
+
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:147): build_failed(): printf '\n\n'
+Last 10 log lines:
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:148): build_failed(): echo 'Last 10 log lines:'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:149): build_failed(): tail -n 10 /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:157): file_is_not_emptylocal 'line_count=     121 /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:159): file_is_not_empty'[' -n '     121 /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log' ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:160): file_is_not_emptywords=($line_count)
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:161): file_is_not_empty'[' 121 -gt 0 ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:146): build_failed(): colorize 33 'Results logged to /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:96): colorize(): '[' -t 1 ']'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:97): colorize(): echo -n 'Results logged to /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:147): build_failed(): printf '\n\n'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:148): build_failed(): echo 'Last 10 log lines:'
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:149): build_failed(): tail -n 10 /var/folders/6g/cz5hr3hj6xndw84r7ljdk3wm0000gn/T/python-build.20230726201300.52703.log
++++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:152): build_failed(): exit 1
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/python-build:2418): build_failed(): kill 52734
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:254): STATUS=1
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:254): [[ 1 -gt 0 ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:254): COMBINED_STATUS=1
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:257): '[' 1 == 2 ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:285): [[ 1 -eq 0 ]]
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:288): cleanup
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:143): cleanup(): '[' -z '' ']'
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:143): cleanup(): rm -rf /Users/mustaphabkl/.pyenv/versions/3.6.10
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:289): break
++(/opt/homebrew/Cellar/pyenv/2.3.23/plugins/python-build/bin/pyenv-install:295): exit 1

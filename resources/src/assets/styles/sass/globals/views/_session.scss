@@ -1,0 +1,61 @@
+.auth-layout-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background: url('./../../../images/photo-wide-4.jpg');
+    .auth-content {
+        min-width: 80%;
+        margin: auto;
+    }
+}
+
+.auth-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.auth-logo {
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .auth-layout-wrap {
+        .auth-content {
+            min-width: 840px;
+            display: flex;
+            align-items: flex-start;
+            > .card {
+                min-width: 450px;
+            }
+            .password-keypad {
+                max-width: 100%;
+                padding-left: 30px;
+                padding-right: 30px;
+                button.col-4.btn.btn-secondary {
+                    min-height: 75px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .auth-layout-wrap {
+        .auth-content {
+            padding: 15px;
+            min-width: 320px;
+        }
+    }
+    .auth-right {
+        padding: 80px 15px;
+    }
+}
